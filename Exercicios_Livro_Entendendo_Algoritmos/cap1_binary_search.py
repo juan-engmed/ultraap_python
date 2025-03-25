@@ -7,9 +7,9 @@ def search_target_index__by_binary_search(array, target):
         middle_index = (last_index + first_index) // 2
         guess_value = array[middle_index]
 
-        if guess_value == value:
+        if guess_value == target:
             return middle_index
-        elif guess_value > value:
+        elif guess_value > target:
             last_index = middle_index - 1
         else:
             first_index  = middle_index + 1
