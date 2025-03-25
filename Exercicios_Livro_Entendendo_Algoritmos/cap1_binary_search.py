@@ -1,5 +1,5 @@
 
-def search_target_index__by_binary_search(array, value):
+def search_target_index__by_binary_search(array, target):
     first_index = 0
     last_index = len(array) - 1
 
