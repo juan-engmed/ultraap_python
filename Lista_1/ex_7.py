@@ -5,7 +5,6 @@ def calc_cdf(lambda_value, x):
     cdf = 1 - exp(-lambda_value * x)
     return cdf
 
-
 def main():
     try:
         lambda_value = float(input('Digite o valor de Lambda'))
