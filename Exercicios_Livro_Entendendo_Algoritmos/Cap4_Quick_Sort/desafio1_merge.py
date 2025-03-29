@@ -22,7 +22,6 @@ def quicksort(array):
 
     return quicksort(menores_pivot) + iguais_pivot + quicksort(maiores_pivot)
 
-
 def main():
     try:
         list_a = [2,0,9]
@@ -34,7 +33,6 @@ def main():
         print(merge_list)
     except Exception as ex:
         print(f'Ocorreu um erro, causado por: {ex}')
-
 
 if __name__ == "__main__":
     main()
