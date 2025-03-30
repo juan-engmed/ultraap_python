@@ -32,6 +32,5 @@ def main():
     merge_list = quicksort([4, 3, 7, 9, 2])
     print(merge_list)
 
-
 if __name__ == "__main__":
     main()
