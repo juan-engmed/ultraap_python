@@ -1,7 +1,7 @@
 
 def normalize_input(text):
     if not isinstance(text, str):
-        raise ValueError(f'{Text} inválido, esperado String')
+        raise ValueError(f'{text} inválido, esperado String')
     return text.lower().replace(" ","")
 
 def is_palindrome(text):
