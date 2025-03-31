@@ -54,7 +54,6 @@ def main():
         else:
             print(f'{text_normalized} NÃO é pangram')
 
-
     except Exception as ex:
         print(f'Ocorreu um erro: {ex}')
 
