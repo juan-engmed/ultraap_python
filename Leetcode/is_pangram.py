@@ -12,7 +12,6 @@ def normalize_input(input_text):
 def get_alphabet_balance_index(letter):
     return ord(letter) - ord('a')
 
-
 #Solution 1
 def is_pangram(text):
     
