@@ -45,7 +45,7 @@ def is_pangram(text):
 
 def main():
     try:
-        text = 'bcdefghijklmnopqrstuvxyzw'
+        text = 'thequickbrownfoxjumpsoverthelazydog'
         text_normalized = normalize_input(text)
 
         result =  is_pangram(text_normalized)
