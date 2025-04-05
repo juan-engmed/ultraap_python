@@ -4,11 +4,17 @@ def test_dict_pessoa():
     pessoa.update({'idade': 34, 'cidade': 'Porto'})
     print(pessoa)
 
-    pessoa.update({'profissão': 'Engenheiro de Telecomunicações'})
+    pessoa['profissao'] = 'Engenheiro'
     print(pessoa)
 
-    pessoa.pop('idade')
+    #Apagar com segurança (sem erro) e também retorna o valor apagado, caso necessite do mesmo
+    pessoa.pop('cidade', None)
     print(pessoa)
+
+    # dados = {'a': 1, 'b': 2, 'c': 3}
+    # ultimo = dados.popitem()
+    # print(ultimo)  # ('c', 3)
+    # print(dados)   # {'a': 1, 'b': 2}
     
 def dict_1_to_5_square():
     numbers_square = {}
@@ -38,7 +44,7 @@ def main():
     test_dict_pessoa()
     dict_1_to_5_square()
     verify_key_in_dict('not')
-    
+
     phrase = "Python se tornou uma das linguagens de programação mais populares do mundo nos últimos anos."
     frequency_word_in_phrase(phrase)
 
