@@ -52,9 +52,5 @@ def main():
 #frase = "oi tudo bem"
 #frase.split()  # resultado: ['oi', 'tudo', 'bem']
 
-
-
-
-
 if __name__ == "__main__":
     main()
