@@ -35,6 +35,7 @@ votantes = {}
 votantes['juan'] = True
 if 'juan' in votantes:
     print('Ja votou')
+    
 #Por debaixo dos panos o set implementa uma Hash Table, com Keys, porém sem value
 votantes_set = set()
 votantes_set.add('juan')
