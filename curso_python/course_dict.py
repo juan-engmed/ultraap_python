@@ -27,10 +27,24 @@ def verify_key_in_dict(key):
     else:
         print('key não está no dict')
 
+def frequency_word_in_phrase(phrase):
+    contagem_palavras = {}
+    palavras = phrase.split()
+    for palavra in palavras:
+        contagem_palavras[palavra] = contagem_palavras.get(palavra, 0) + 1
+    print(contagem_palavras)
+
 def main():
     test_dict_pessoa()
     dict_1_to_5_square()
     verify_key_in_dict('not')
+    
+    phrase = "Python se tornou uma das linguagens de programação mais populares do mundo nos últimos anos."
+    frequency_word_in_phrase(phrase)
+
+
+#frase = "oi tudo bem"
+#frase.split()  # resultado: ['oi', 'tudo', 'bem']
 
 
 
