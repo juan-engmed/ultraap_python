@@ -26,6 +26,7 @@ restaurantes = {
         'avaliacao': 4.5
     }
 }
+
 #for key, value in dict.items()
 for id_restaurante, dados in restaurantes.items():
     print(id_restaurante)
