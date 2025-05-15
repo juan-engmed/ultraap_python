@@ -1,5 +1,5 @@
 
-def search_target_index__by_binary_search(array, target):
+def search_target_index_by_binary_search(array, target):
     first_index = 0
     last_index = len(array) - 1
 
@@ -19,7 +19,7 @@ def main():
     test_list = [1,2,3,4,5]
     target = 11
 
-    target_index = search_target_index__by_binary_search(test_list, target)
+    target_index = search_target_index_by_binary_search(test_list, target)
     if target_index is not None:
         print(f'O índice do elemento {target} é: {target_index}')
     else:
