@@ -47,7 +47,7 @@ def cadastrar_dado(heights, height_bins):
             faixa = classify_height(height)
             if faixa:
                 height_bins[faixa] += 1
-            break  # altura válida → sair do while interno
+            break
 
     except Exception as e:
         print(f"Erro inesperado ao cadastrar: {e}")
@@ -68,6 +68,17 @@ def mostrar_percentual(heights, height_bins):
     for faixa in 'ABCDE':
         percentual = (height_bins.get(faixa, 0) / total) * 100
         print(f"{faixa} --- {percentual:.1f}%")
+
+def aguardar_usuario():
+    while True:
+        escolha = input("\nDigite [0] para voltar ao menu ou [1] para encerrar: ").strip()
+        if escolha == "1":
+            print("Programa Finalizado.")
+            exit()
+        elif escolha == "0":
+            return
+        else:
+            print("Opção inválida. Tente novamente.")
 
 def main():
     heights = []
@@ -90,11 +101,14 @@ def main():
             cadastrar_dado(heights, height_bins)
         elif opcao == "2":
             mostrar_media(heights)
+            aguardar_usuario()
         elif opcao == "3":
             mostrar_percentual(heights, height_bins)
+            aguardar_usuario()
         elif opcao == "4":
             mostrar_media(heights)
             mostrar_percentual(heights, height_bins)
+            aguardar_usuario()
         else:
             print("Opção inválida. Tente novamente.")
 
