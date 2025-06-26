@@ -1,3 +1,6 @@
+from collections import deque
+
+
 class Graph:
     def __init__(self):
         self.graph = {}
@@ -37,10 +40,24 @@ class Graph:
         for vertex, edges in self.graph.items():
             print(f'{vertex}:{edges}')
             
+    def bfs(self, vertex):
+        visited = set()
+        visited.add(vertex)
+        
+        queue = deque([vertex])
+        while queue:
+            current_vertex = queue.popleft()
+            print(current_vertex)
+            for adjacent_vertex in self.graph[vertex]:
+                if adjacent_vertex not in visited:
+                    visited.add(adjacent_vertex)
+                    queue.append(adjacent_vertex)
+            
 custom_graph = Graph()
 custom_graph.add_vertex('A')
 custom_graph.add_vertex('B')
 custom_graph.add_edge('A', 'B')
 
 custom_graph.print_graph()
+custom_graph.bfs('A')
     
