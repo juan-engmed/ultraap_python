@@ -1,0 +1,101 @@
+paciente_id,status,classificacao,detalhes
+0,OK,Atencao,100% igual
+1,OK,Alerta Critico,100% igual
+10,OK,Atencao,100% igual
+11,OK,Normal,100% igual
+12,OK,Normal,100% igual
+13,OK,Atencao,100% igual
+14,OK,Atencao,100% igual
+15,OK,Alerta Critico,100% igual
+16,OK,Normal,100% igual
+17,OK,Alerta Critico,100% igual
+18,OK,Atencao,100% igual
+19,OK,Normal,100% igual
+2,OK,Normal,100% igual
+20,OK,Atencao,100% igual
+21,OK,Atencao,100% igual
+22,OK,Normal,100% igual
+23,OK,Atencao,100% igual
+24,OK,Normal,100% igual
+25,OK,Atencao,100% igual
+26,OK,Normal,100% igual
+27,OK,Normal,100% igual
+28,OK,Atencao,100% igual
+29,OK,Alerta Critico,100% igual
+3,OK,Alerta Critico,100% igual
+30,OK,Atencao,100% igual
+31,OK,Alerta Critico,100% igual
+32,OK,Normal,100% igual
+33,OK,Normal,100% igual
+34,OK,Atencao,100% igual
+35,OK,Alerta Critico,100% igual
+36,OK,Atencao,100% igual
+37,OK,Atencao,100% igual
+38,OK,Alerta Critico,100% igual
+39,OK,Atencao,100% igual
+4,OK,Normal,100% igual
+40,OK,Normal,100% igual
+41,OK,Normal,100% igual
+42,OK,Normal,100% igual
+43,OK,Normal,100% igual
+44,OK,Normal,100% igual
+45,OK,Alerta Critico,100% igual
+46,OK,Alerta Critico,100% igual
+47,OK,Normal,100% igual
+48,OK,Normal,100% igual
+49,OK,Atencao,100% igual
+5,OK,Atencao,100% igual
+50,OK,Alerta Critico,100% igual
+51,OK,Normal,100% igual
+52,OK,Normal,100% igual
+53,OK,Alerta Critico,100% igual
+54,OK,Normal,100% igual
+55,OK,Atencao,100% igual
+56,OK,Normal,100% igual
+57,OK,Atencao,100% igual
+58,OK,Atencao,100% igual
+59,OK,Atencao,100% igual
+6,OK,Normal,100% igual
+60,OK,Normal,100% igual
+61,OK,Alerta Critico,100% igual
+62,OK,Alerta Critico,100% igual
+63,OK,Normal,100% igual
+64,OK,Atencao,100% igual
+65,OK,Normal,100% igual
+66,OK,Alerta Critico,100% igual
+67,OK,Alerta Critico,100% igual
+68,OK,Alerta Critico,100% igual
+69,OK,Alerta Critico,100% igual
+7,OK,Alerta Critico,100% igual
+70,OK,Alerta Critico,100% igual
+71,OK,Normal,100% igual
+72,OK,Normal,100% igual
+73,OK,Alerta Critico,100% igual
+74,OK,Alerta Critico,100% igual
+75,OK,Alerta Critico,100% igual
+76,OK,Alerta Critico,100% igual
+77,OK,Atencao,100% igual
+78,OK,Atencao,100% igual
+79,OK,Atencao,100% igual
+8,OK,Atencao,100% igual
+80,OK,Atencao,100% igual
+81,OK,Atencao,100% igual
+82,OK,Normal,100% igual
+83,OK,Normal,100% igual
+84,OK,Alerta Critico,100% igual
+85,OK,Normal,100% igual
+86,OK,Alerta Critico,100% igual
+87,OK,Atencao,100% igual
+88,OK,Normal,100% igual
+89,OK,Alerta Critico,100% igual
+9,OK,Normal,100% igual
+90,OK,Normal,100% igual
+91,OK,Alerta Critico,100% igual
+92,OK,Normal,100% igual
+93,OK,Alerta Critico,100% igual
+94,OK,Normal,100% igual
+95,OK,Normal,100% igual
+96,OK,Normal,100% igual
+97,OK,Alerta Critico,100% igual
+98,OK,Normal,100% igual
+99,OK,Atencao,100% igual
